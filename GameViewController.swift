@@ -22,7 +22,7 @@ class GameViewController: UIViewController {
     
     let width: CGFloat = UIScreen.main.bounds.size.width
     var positionX: [CGFloat] = [0.0, 0.0, 0.0]
-    var dx: [CGFloat] = [1,0, 0.5, -1.0]
+    var dx: [CGFloat] = [1.0, 0.5, -1.0]
     
     func start() {
         resultLabel.isHidden = true
