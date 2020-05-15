@@ -13,6 +13,8 @@
 		AE053F86246BFE6500B13CB7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE053F84246BFE6500B13CB7 /* Main.storyboard */; };
 		AE053F88246BFE6F00B13CB7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE053F87246BFE6F00B13CB7 /* Assets.xcassets */; };
 		AE053F8B246BFE6F00B13CB7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE053F89246BFE6F00B13CB7 /* LaunchScreen.storyboard */; };
+		AE053F93246C0CF000B13CB7 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE053F92246C0CF000B13CB7 /* GameViewController.swift */; };
+		AE053F95246C0D1000B13CB7 /* RankingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE053F94246C0D1000B13CB7 /* RankingViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		AE053F87246BFE6F00B13CB7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AE053F8A246BFE6F00B13CB7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AE053F8C246BFE6F00B13CB7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AE053F92246C0CF000B13CB7 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		AE053F94246C0D1000B13CB7 /* RankingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RankingViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +44,8 @@
 		AE053F72246BFE6500B13CB7 = {
 			isa = PBXGroup;
 			children = (
+				AE053F94246C0D1000B13CB7 /* RankingViewController.swift */,
+				AE053F92246C0CF000B13CB7 /* GameViewController.swift */,
 				AE053F7D246BFE6500B13CB7 /* BarabaraGame */,
 				AE053F7C246BFE6500B13CB7 /* Products */,
 			);
@@ -138,6 +144,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AE053F95246C0D1000B13CB7 /* RankingViewController.swift in Sources */,
+				AE053F93246C0CF000B13CB7 /* GameViewController.swift in Sources */,
 				AE053F83246BFE6500B13CB7 /* ViewController.swift in Sources */,
 				AE053F7F246BFE6500B13CB7 /* AppDelegate.swift in Sources */,
 				AE053F81246BFE6500B13CB7 /* SceneDelegate.swift in Sources */,
